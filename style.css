@@ -1,0 +1,376 @@
+
+
+/*Font import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&family=Roboto:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*Creating Banner for Index page*/
+
+#IndexBanner{
+    width: 100%;
+    height: 800px;
+    background-image: url("Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 32px;
+}
+  
+ .container{
+    max-width:1140px;
+    margin: 0 auto;
+ }   
+
+/*navbar details-font changes, hover details, margin and padding details*/
+
+ .navbar {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.navbar .menu a{
+    color: white;
+    padding-top: 20px;
+    margin-left:30px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.navbar .menu a:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+/*Adding detail to text within Banner on Index page*/
+
+.Index-box{
+    width: 50%;
+    margin-top: 200px;
+}
+
+.Index-box .Index-heading{
+    color: white;
+    font-size: 50px;
+    line-height:65px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+
+.Index-box .Index-description{
+    color:white;
+    font-size: 18px;
+    line-height:20px;
+    padding: 30px;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+}
+
+.content-section {
+    background-color: #f8f8f8;
+    padding: 50px;
+    text-align: center;
+  }
+
+  /*Making sure the navbar adapts to different screens*/
+
+  @media screen and (max-width: 768px) {
+    
+    .navbar {
+      flex-direction: column;
+    }
+    
+    .navbar a {
+      margin-bottom: 10px;
+    }
+    
+    .icon {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+
+ /*Setting sidebar gradient color and setting text preferences*/
+
+  .content-section{
+    background: rgb(119,119,119);
+background: linear-gradient(0deg, rgba(119,119,119,1) 0%, rgba(21,21,21,1) 92%);
+  }
+
+  .content-section{
+    color: rgb(153, 153, 153);
+    font-family: "Poppins", sans-serif;
+    height:400px;
+    
+  }
+
+  /*making sure the lightbulb image sits properly in the content section*/
+
+.lightbulb{
+  padding: 30px;
+}
+
+.footer-section{
+  background:rgb(153, 153, 153);
+}
+  
+.footer-section{
+  color: rgb(54, 53, 53);
+  font-family: "Poppins", sans-serif;
+  height: 50px;
+  
+}
+
+/*About Me html section*/
+
+#AboutBanner{
+  width: 100%;
+  height: 800px;
+  background-image: url("Background2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-top: 32px;
+}
+
+/*Making sure the navbar adapts to different screens*/
+
+@media screen and (max-width: 768px) {
+  
+  .navbar2 {
+    flex-direction: column;
+  }
+  
+  .navbar2 a {
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+.navbar2 {
+
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.navbar2 .menu a{
+  color: rgb(247, 243, 243);
+  padding-top: 20px;
+  margin-left:30px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.navbar2 .menu a:hover{
+  border-bottom: 2px solid rgb(255, 255, 255);
+  padding-bottom: 10px;
+}
+
+/*Adding detail to text within Banner on About Me page*/
+
+.About-box{
+  width: 50%;
+  margin-top: 200px;
+}
+
+.About-box .About-heading{
+  color: white;
+  font-size: 50px;
+  line-height:65px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.About-box .About-description{
+  color:white;
+  font-size: 18px;
+  line-height:20px;
+  padding: 30px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+ /*Setting sidebar gradient color and setting text preferences*/
+
+.content-section2{
+  background: rgb(119,119,119);
+background: linear-gradient(0deg, rgba(119,119,119,1) 0%, rgba(21,21,21,1) 92%);
+}
+
+.content-section2{
+  color: rgb(153, 153, 153);
+  font-family: "Poppins", sans-serif;
+  height:500px;
+  
+}
+
+.content-section2 {
+  background-color: #f8f8f8;
+  padding: 25px;
+  text-align: center;
+}
+
+
+/*Skills html section*/
+ /*Setting sidebar gradient color and setting text preferences*/
+
+.content-section3{
+  background: rgb(119,119,119);
+background: linear-gradient(0deg, rgba(119,119,119,1) 0%, rgba(21,21,21,1) 92%);
+}
+
+.content-section3{
+  color: rgb(153, 153, 153);
+  font-family: "Poppins", sans-serif;
+  height:500px;
+  
+}
+
+.content-section3{
+  background-color: #f8f8f8;
+  padding: 50px;
+  text-align: center;
+}
+
+/*Setting up ContactInfo*/
+
+
+.content-section4{
+  background: rgb(119,119,119);
+background: linear-gradient(0deg, rgba(119,119,119,1) 0%, rgba(21,21,21,1) 92%);
+}
+
+.content-section4{
+  color: rgb(153, 153, 153);
+  font-family: "Poppins", sans-serif;
+  height:500px;
+  
+}
+
+.content-section4{
+  background-color: #f8f8f8;
+  padding: 50px;
+  text-align: center;
+}
+
+
+/*Setting up Banner for Skills page*/
+
+#SkillsBanner{
+  width: 100%;
+  height: 800px;
+  background-image: url("Background3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-top: 32px;
+}
+
+/*Adding detail to text within Banner on Skills page*/
+
+.Skills-box{
+  width: 50%;
+  margin-top: 250px;
+}
+
+.Skills-box .Skills-heading{
+  color: white;
+  font-size: 50px;
+  line-height:65px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.Skills-box .Skills-description{
+  color:white;
+  font-size: 18px;
+  line-height:20px;
+  padding: 30px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/*Contact Info html Section*/
+
+
+#ContactBanner{
+  width: 100%;
+  height: 800px;
+  background-image: url("Background4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-top: 32px;
+}
+
+/*Adding detail to text within Banner on Contact Me page*/
+
+.Contact-box{
+  width: 50%;
+  margin-top: 250px;
+  margin-right: 250px;
+}
+
+.Contact-box .Contact-heading{
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  line-height:65px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.Contact-box .Contact-description{
+  color:rgb(238, 234, 234);
+  font-size: 18px;
+  line-height:20px;
+  padding: 30px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Changing Footer to preferred color, font, and text alignment*/
+
+.Footer{
+  background: rgb(84, 82, 82);
+  height: 200px;
+}
+
+.Footer{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color:rgb(124, 122, 122);
+  padding: 30px;
+}
+
+/*Setting Icon so it sits on the corner of the screen*/
+
+.Icon{
+  height: 30px;
+  width: auto;
+  padding: 60px;
+}
+
+
+
